@@ -1,0 +1,66 @@
+body {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: yellow;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    background-color: black;
+    border: 2px yellow solid;
+    padding: 8px;
+    /* box-shadow: 0px 10px yellow; */
+    text-shadow: 2px 2px BLACK;
+}
+
+.head {
+    font-size: 60px; 
+    font-family: Orbitron; 
+    color: yellow;
+    letter-spacing: 7px; 
+    background-color: black; 
+    position: absolute; 
+    top: 25%; 
+    left: 27%;
+    border: 2px yellow solid;
+    padding: 8px;
+    /* box-shadow: 5px 10px  greenyellow; */
+    text-shadow: 2px 2px black;
+}
+
+#BO{
+    font-family: Orbitron;
+    letter-spacing: 2px; 
+    background-color: antiquewhite;
+    position: absolute; 
+    top: 65%; 
+    left: 30%;
+    border: 2px solid yellow ;
+    border-radius: 12px;
+}
+
+#BT{
+    font-family: Orbitron;
+    letter-spacing: 2px; 
+    background-color: antiquewhite;
+    position: absolute; 
+    top: 65%; 
+    left: 60%;
+    border: 2px solid yellow ;
+    border-radius: 12px;
+}
+
+#BT:hover{
+    background-color: chartreuse;
+    border: cornsilk 2px solid;
+}
+
+#BO:hover{
+    background-color: chartreuse;
+    border: cornsilk 2px solid;
+}
